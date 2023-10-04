@@ -1,0 +1,136 @@
+:root {
+    --bs-body-font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    max-height:100%;
+    overflow-x: hidden;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color:  rgba(134, 121, 0, 0.664);
+}
+
+.navbar-brand {
+    margin-inline: 2rem;
+}
+
+.home__video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -5;
+}
+
+.home__overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -2;
+}
+
+.oceangramheader{
+    position:absolute;
+    height:548px;
+    width:auto;
+    z-index:2;    
+}
+
+.oceangram{
+    position:relative;
+    height:560px;
+    width:auto;
+    z-index:0;
+}
+
+@media (max-width: 992px){
+    .oceangramheader{
+        height: 298px;
+    }
+    .oceangram{
+        height: 310px;
+    }
+
+    .bootstrap-select .dropdown-menu li a {
+        font-size: 0.6rem;
+    }
+
+    .buttons .nav-link{
+        font-size: 0.7rem;
+    }
+
+    .tab-content p{
+        font-size: 0.7rem;
+    }
+}
+
+.select_box .dropdown-item:hover{
+    background-color: rgba(134, 121, 0, 0.664);
+    color: #ffffff; 
+}
+
+/* .select_box .dropdown-item.active{
+    background-color: rgb(147, 150, 0);
+    color: #ffffff;
+} */
+
+.select_box .dropdown-item{ 
+    background-color: rgba(48, 47, 47, 0.849);
+    color: #ffffff;
+}
+
+.select_box .bs-searchbox{ 
+    background-color: rgba(48, 47, 47, 0.849);
+    color: #ffffff;
+}
+
+.select_box .dropdown-menu{ 
+    background-color: rgb(48, 47, 47);
+}
+
+.select_box .form-control{
+    background-color: rgba(48, 47, 47, 0.849);
+    color: #ffffff;
+}
+
+.select_box .no-results{
+    background-color: rgba(48, 47, 47, 0.849);
+    color: #ffffff;
+}
+
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.navbar-toggler-icon {
+    font-size: 0.8rem;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-dark:focus,
+.btn-dark:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+#semaforo{
+    width: 15%;
+    height: auto;
+}
