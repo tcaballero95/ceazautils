@@ -97,44 +97,58 @@
                 <div class="container w-50 text-center my-3"><h3>Series de Tiempo por localidad</h3></div>
                 <div class="row justify-content-center mt-4 select_box">
                     <select class="selectpicker mb-3 w-25" data-style="btn-dark" data-size="10" data-live-search="false" name="image_selector2" onchange="updateImage2()">
-                        <option value="CURRENT_ts_forecast_Andacollo [Collowara].png">Andacollo (Collowara)</option>
-                        <option value="CURRENT_ts_forecast_Canela.png">Canela</option>
-                        <option value="CURRENT_ts_forecast_Casa del Encanto.png">Casa del Encanto</option>
-                        <option value="CURRENT_ts_forecast_Combarbalá [C.del Sur].png">Combarbalá</option>
-                        <option value="CURRENT_ts_forecast_Coquimbo [El Panul].png">Coquimbo (El Panul)</option>
-                        <option value="CURRENT_ts_forecast_El Palqui [INIA].png">El Palqui</option>
-                        <option value="CURRENT_ts_forecast_Gabriela Mistral.png">Gabriela Mistral</option>
-                        <option value="CURRENT_ts_forecast_Huintil.png">Huintil</option>
-                        <option value="CURRENT_ts_forecast_Hurtado [Lavaderos].png">Hurtado (Lavaderos)</option>
-                        <option value="CURRENT_ts_forecast_Illapel.png">Illapel</option>
-                        <option value="CURRENT_ts_forecast_La Laguna [Elqui].png">La Laguna (Elqui)</option>
-                        <option value="CURRENT_ts_forecast_La Polvareda [INIA].png">Punitaqui</option>
-                        <option value="CURRENT_ts_forecast_La Serena [CEAZA].png">La Serena (CEAZA)</option>
-                        <option value="CURRENT_ts_forecast_La Serena [El Romeral].png">La Serena (El Romeral)</option>
-                        <option value="CURRENT_ts_forecast_Los Vilos.png">Los Vilos</option>
-                        <option value="CURRENT_ts_forecast_Mincha Sur.png">Mincha</option>
-                        <option value="CURRENT_ts_forecast_Ovalle [Talhuén].png">Ovalle (Talhuén)</option>
-                        <option value="CURRENT_ts_forecast_Pan de Azúcar.png">Pan de Azúcar</option>
-                        <option value="CURRENT_ts_forecast_Paso Agua Negra.png">Paso Agua Negra</option>
-                        <option value="CURRENT_ts_forecast_Pichasca.png">Pichasca</option>
-                        <option value="CURRENT_ts_forecast_Pisco Elqui.png">Pisco Elqui</option>
-                        <option value="CURRENT_ts_forecast_Punta de Choros.png">Punta de Choros</option>
-                        <option value="CURRENT_ts_forecast_Rapel.png">Rapel</option>
-                        <option value="CURRENT_ts_forecast_Salamanca [Chillepín].png">Salamanca</option>
-                        <option value="CURRENT_ts_forecast_Tascadero.png">Tascadero</option>
-                        <option value="CURRENT_ts_forecast_Tongoy Balsa CMET.png">Tongoy</option>
-                        <option value="CURRENT_ts_forecast_Vicuña.png">Vicuña</option>
+                        <option value="Andacollo [Collowara]">Andacollo (Collowara)</option>
+                        <option value="Canela">Canela</option>
+                        <option value="Casa del Encanto">Casa del Encanto</option>
+                        <option value="Combarbalá [C.del Sur]">Combarbalá</option>
+                        <option value="Coquimbo [El Panul]">Coquimbo (El Panul)</option>
+                        <option value="El Palqui [INIA]">El Palqui</option>
+                        <option value="Gabriela Mistral">Gabriela Mistral</option>
+                        <option value="Huintil">Huintil</option>
+                        <option value="Hurtado [Lavaderos]">Hurtado (Lavaderos)</option>
+                        <option value="Illapel">Illapel</option>
+                        <option value="La Laguna [Elqui]">La Laguna (Elqui)</option>
+                        <option value="La Polvareda [INIA]">Punitaqui</option>
+                        <option value="La Serena [CEAZA]">La Serena (CEAZA)</option>
+                        <option value="La Serena [El Romeral]">La Serena (El Romeral)</option>
+                        <option value="Los Vilos">Los Vilos</option>
+                        <option value="Mincha Sur">Mincha</option>
+                        <option value="Ovalle [Talhuén]">Ovalle (Talhuén)</option>
+                        <option value="Pan de Azúcar">Pan de Azúcar</option>
+                        <option value="Paso Agua Negra">Paso Agua Negra</option>
+                        <option value="Pichasca">Pichasca</option>
+                        <option value="Pisco Elqui">Pisco Elqui</option>
+                        <option value="Punta de Choros">Punta de Choros</option>
+                        <option value="Rapel">Rapel</option>
+                        <option value="Salamanca [Chillepín]">Salamanca</option>
+                        <option value="Tascadero">Tascadero</option>
+                        <option value="Tongoy Balsa CMET">Tongoy</option>
+                        <option value="Vicuña">Vicuña</option>
                     </select>
                 </div>
                 
                 <div style="margin-right: 10px; margin-left: 10px; z-index: -1;">
                     <div class="row mx-0 px-0 justify-content-center">
-                        <img id="image_display2" src="./images/forecast_wrf/CURRENT_ts_forecast_Andacollo [Collowara].png" style="width: 100%;">
+                        <img id="image_display2" src="./images/forecast_wrf/CURRENT_ts_forecast_Andacollo [Collowara].png" style="width: 80%;">
                     </div>
                 </div>
+
+                <div class="box-overflow">
+                    <div class="container-text">
+                        <iframe
+                            src="./tables/forecast_wrf/CURRENT_Andacollo [Collowara].txt"
+                            frameborder="0"
+                            height="250px"
+                            width="1000px"
+                            id="text_display">
+                        </iframe>
+                    </div>
+                </div>
+
             </div>
             
         </div>
+
 
         <hr style="background-color: transparent;">
           
@@ -148,7 +162,8 @@
         <script>
             function updateImage2() {
                 var selectedImage = document.getElementsByName("image_selector2")[0].value;
-                document.getElementById("image_display2").src = "./images/forecast_wrf/" + selectedImage;
+                document.getElementById("image_display2").src = "./images/forecast_wrf/CURRENT_ts_forecast_" + selectedImage + ".png";
+                document.getElementById("text_display").src = "./tables/forecast_wrf/CURRENT_" + selectedImage + ".txt";
             }
         </script>
 

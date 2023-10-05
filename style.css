@@ -131,6 +131,26 @@ html, body{
 
 
 #semaforo{
-    width: 15%;
+    width: 100px;
     height: auto;
 }
+
+.box-overflow {
+    display: block;
+    margin-inline: 2%; 
+    margin-block: 5px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.container-text {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+.pdf-button a{
+    font-weight: 800;
+}
+
+
